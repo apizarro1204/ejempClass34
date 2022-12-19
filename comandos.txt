@@ -1,0 +1,2 @@
+git remote add origin
+git add . //añadir todos los archivos al stage area
