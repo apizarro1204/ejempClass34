@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080
 app.use(express.static('public'))
 
 app.get('/saludo',(req,res)=>{
-  res.send('Hola bienvenido'+ process.env.NOMBRE)
+  res.send('Hola bienvenido a tu proyecto: '+ process.env.NOMBRE)
 })
 
 app.listen(PORT, (err) => {
